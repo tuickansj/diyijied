@@ -1,0 +1,18 @@
+Index: day1/src/main/java/org/example/er.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class er {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"aa\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/day1/src/main/java/org/example/er.java b/day1/src/main/java/org/example/er.java
+--- a/day1/src/main/java/org/example/er.java	
++++ b/day1/src/main/java/org/example/er.java	
+@@ -2,6 +2,6 @@
+ 
+ public class er {
+     public static void main(String[] args) {
+-        System.out.println("aa");
++        System.out.println("aasdasda");
+     }
+ }
