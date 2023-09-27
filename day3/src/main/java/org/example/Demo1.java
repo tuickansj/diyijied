@@ -1,10 +1,19 @@
 package org.example;
 
+import java.io.*;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class Demo1 {
-    public static void main(String[] args) {
-        lianX2();
+    public static void main(String[] args) throws IOException {
+
+        Scanner scanner = new Scanner(System.in);
+        int yuef = scanner.nextInt();
+        int[] tians = {31,28,31,30,31,30,31,31,30,31,30,31};
+        if(yuef>0&&yuef<=12){
+            System.out.println(yuef+"月有"+tians[yuef-1]+"天");
+        }
+
     }
 
     public static void lianX1() {
