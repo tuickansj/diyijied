@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day2" />
+        <module name="day3" />
         <module name="untitled" />
         <module name="day1" />
       </profile>
