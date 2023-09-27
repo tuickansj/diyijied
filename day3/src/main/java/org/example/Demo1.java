@@ -1,5 +1,4 @@
 package org.example;
-
 import java.io.*;
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -32,4 +31,6 @@ public class Demo1 {
         int nian = scanner.nextInt();
         System.out.println((nian % 4 == 0 & nian % 100 != 0) || nian % 400 == 0 ? nian + "是润年" : nian + "不是润年");
     }
+
+
 }

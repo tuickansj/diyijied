@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56044a00-4a55-469a-88fe-ec7ead7ed70a" name="更改" comment="更改">
+      <change afterPath="$PROJECT_DIR$/day3/src/main/java/org/example/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day3/src/main/java/org/example/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day3/src/main/java/org/example/Demo1.java" afterDir="false" />
     </list>
@@ -88,7 +89,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.Test5">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Demo1" />
       <module name="day3" />
@@ -102,8 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test5" />
+      <module name="day3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test5" />
         <item itemvalue="应用程序.Demo1" />
       </list>
     </recent_temporary>
@@ -124,7 +139,9 @@
       <workItem from="1695776131682" duration="92000" />
       <workItem from="1695779564792" duration="946000" />
       <workItem from="1695785216482" duration="1926000" />
-      <workItem from="1695795268326" duration="5649000" />
+      <workItem from="1695795268326" duration="5718000" />
+      <workItem from="1695801142714" duration="2557000" />
+      <workItem from="1695806525632" duration="2839000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <created>1695693932795</created>
@@ -245,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695795318871</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="更改">
+      <created>1695801077551</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695801077551</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +295,16 @@
             </State>
           </value>
         </entry>
+        <entry key="f5e103b5-f32a-4f89-abcf-fa5ea18c4bf8">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f5e103b5-f32a-4f89-abcf-fa5ea18c4bf8" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
