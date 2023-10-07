@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class day4 {
     public static void main(String[] args) {
-           T1();
-           T2();
-           T3();
+
            T4();
-           T5();
+
     }
     public static void T1(){
         System.out.println("输入整形数:");
