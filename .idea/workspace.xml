@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56044a00-4a55-469a-88fe-ec7ead7ed70a" name="更改" comment="更改">
-      <change afterPath="$PROJECT_DIR$/day5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/src/main/java/org/example/Day5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/src/main/java/org/example/HomeWordk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/src/main/java/org/example/Topic1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/src/main/java/org/example/Topic2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/src/main/java/org/example/Topic3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5/src/main/java/org/example/Topic4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[更改]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2023_9_26_10_03_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_9_26_19_58_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_9_27_8_48_取消提交了更改_[更改]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2023_9_26_10_03_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2023_9_26_9_53_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2023_9_26_9_54_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/src/main/java/org/example/day4.java" beforeDir="false" afterPath="$PROJECT_DIR$/day4/src/main/java/org/example/day4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="56044a00-4a55-469a-88fe-ec7ead7ed70a" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +139,7 @@
       <workItem from="1695801142714" duration="2557000" />
       <workItem from="1695806525632" duration="2839000" />
       <workItem from="1696675463383" duration="7000" />
+      <workItem from="1696675476117" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <created>1695693932795</created>
@@ -283,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695801077551</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1696675495981</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696675495981</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +317,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".." />
     <MESSAGE value="更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
