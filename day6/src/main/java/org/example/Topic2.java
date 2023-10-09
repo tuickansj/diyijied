@@ -3,7 +3,7 @@ package org.example;
 public class Topic2 {
     public static void main(String[] args) {
         //2, 现有一堆英文歌曲，请按照首字母排序
-        //String[] musics = {“apple”,"super star","long time",'"yestoday"}；
+
         String[] musics = {"apple","super star","long time","yestoday"};
         System.out.print("排序前:");
         for (String music:musics) System.out.print(music+", ");

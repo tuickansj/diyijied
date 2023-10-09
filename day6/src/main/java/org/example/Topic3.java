@@ -13,8 +13,9 @@ public class Topic3 {
         int appleNumbers = 0;
         for (String appleHeight:appleHeightS) {
             int height = Integer.parseInt(appleHeight);
-            if (height<=(benchHeight+tHeight)) ++appleNumbers;
+            if (height<=     (benchHeight+tHeight)) ++appleNumbers;
         }
         System.out.println("陶陶能够拿的苹果数为"+appleNumbers);
+
     }
 }
