@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56044a00-4a55-469a-88fe-ec7ead7ed70a" name="更改" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/day7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/src/main/java/org/example/ATMSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/src/main/java/org/example/ATMSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/src/main/java/org/example/day8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/src/main/java/org/example/Topic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day6/src/main/java/org/example/Topic2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/src/main/java/org/example/Topic3.java" beforeDir="false" afterPath="$PROJECT_DIR$/day6/src/main/java/org/example/Topic3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/target/classes/org/example/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/target/classes/org/example/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/target/classes/org/example/day4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/target/classes/org/example/Day5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/target/classes/org/example/HomeWordk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/target/classes/org/example/Topic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/target/classes/org/example/Topic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/target/classes/org/example/Topic3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/target/classes/org/example/Topic4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/src/main/java/org/example/ATMSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/day7/src/main/java/org/example/ATMSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +69,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/day7/src/main/java/org/example/ATMSystem.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,6 +82,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Vuh7HeDS5eFzyLBpp0ymxtqmO0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,29 +93,47 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.ATMSystem">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.ATMSystem (1)">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.A" />
       <module name="day7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ATMSystem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ATMSystem" />
+      <module name="day8" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -124,32 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="day6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Topic2" />
-      <module name="day6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Topic3" />
       <module name="day6" />
@@ -163,13 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day8" />
+      <module name="day8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ATMSystem (1)" />
+        <item itemvalue="应用程序.day8" />
         <item itemvalue="应用程序.ATMSystem" />
         <item itemvalue="应用程序.A" />
         <item itemvalue="应用程序.Topic3" />
-        <item itemvalue="应用程序.Topic2" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +219,20 @@
       <workItem from="1696754537171" duration="4169000" />
       <workItem from="1696760196581" duration="662000" />
       <workItem from="1696767346045" duration="78000" />
-      <workItem from="1696813515918" duration="21659000" />
+      <workItem from="1696813515918" duration="23876000" />
+      <workItem from="1696848382276" duration="426000" />
+      <workItem from="1696848934806" duration="272000" />
+      <workItem from="1696850266018" duration="72000" />
+      <workItem from="1696852744024" duration="79000" />
+      <workItem from="1696853217519" duration="79000" />
+      <workItem from="1696898015218" duration="22000" />
+      <workItem from="1696898040593" duration="4860000" />
+      <workItem from="1696903845393" duration="12000" />
+      <workItem from="1696903877655" duration="2579000" />
+      <workItem from="1696919865297" duration="1099000" />
+      <workItem from="1696923089138" duration="597000" />
+      <workItem from="1696924620962" duration="2627000" />
+      <workItem from="1696930050516" duration="6633000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <created>1695693932795</created>
@@ -348,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696759350904</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1696844238310</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696844238310</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
