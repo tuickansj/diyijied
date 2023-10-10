@@ -33,6 +33,14 @@ public class ATMSystem {
             }
         }
     }
+
+    /**
+     * 查询用户池里的用户编号
+     * @param userInformationS
+     * @param name
+     * @param password
+     * @return
+     */
     public static int FindUser(String[][] userInformationS,String name,String password){
         if (userInformationS.length==0) return -1;
         for (String[] userInformation: userInformationS) {
@@ -42,6 +50,13 @@ public class ATMSystem {
         }
         return -1;
     }
+
+    /**
+     * 为用户池添加用户
+     * @param userInformationS
+     * @param scanner
+     * @return
+     */
 
     public static String[][] EnrollUser(String[][] userInformationS,Scanner scanner){
         System.out.println("新用户注册~");
@@ -58,6 +73,13 @@ public class ATMSystem {
         }else System.out.println("输入内容有误!!!");
         return userInformationS;
     }
+
+    /**
+     * 为用户池删除用户
+     * @param userInformationS
+     * @param scanner
+     * @return
+     */
    public static String[][] LogoutUser(String[][] userInformationS,Scanner scanner){
         System.out.println("用户注销~");
         System.out.println("请输入账户:");
@@ -77,6 +99,11 @@ public class ATMSystem {
         System.out.println("注销结束~");
         return userInformationS;
     }
+
+    /**
+     * 查看用户池所有的用户信息
+     * @param userInformationS
+     */
     public static void ViewUser(String[][] userInformationS){
         System.out.println("用户列表~");
         for (String[] userInformation : userInformationS) {
@@ -93,9 +120,21 @@ public class ATMSystem {
         }
         System.out.println("查看结束~");
     }
+
+    /**
+     * 冻结用户池里面的某个用户
+     * @param userInformationS
+     * @param scanner
+     */
     public static void FreezeUser(String[][] userInformationS,Scanner scanner){
         System.out.println("输入用户编号:");
-        int userNumber = Integer.parseInt(scanner.nextLine().trim()) - 1;
+        int userNumber = 0;
+        try {
+            userNumber = Integer.parseInt(scanner.nextLine().trim()) - 1;
+        } catch (NumberFormatException e) {
+            System.out.println("输入数据有误!!!");
+            return;
+        }
         if (userNumber < userInformationS.length && userInformationS[userNumber] != null) {
             if (userInformationS[userNumber][3].equals("是否冻结:Y")) {
                 System.out.println("是否取消冻结?(Y/N)");
@@ -110,6 +149,14 @@ public class ATMSystem {
             }
         } else System.out.println("用户不存在!!");
     }
+
+    /**
+     * 管理员功能集合
+     * @param userInformationS
+     * @param enter
+     * @param scanner
+     * @return
+     */
     public static String[][] AdminFunction(String[][] userInformationS,boolean enter,Scanner scanner){
         while (enter) {
             System.out.println("请输入操作编号:");
@@ -148,6 +195,14 @@ public class ATMSystem {
         }
         return userInformationS;
     }
+
+    /**
+     * 查询用户池的某个用户编号
+     * @param userInformationS
+     * @param name
+     * @param password
+     * @return
+     */
     public static int ReturnUserIndex(String[][] userInformationS,String name,String password){
         for (String[] userInformation : userInformationS) {
             if ((userInformation[0].split(":")[1].equals(name) && userInformation[1].split(":")[1].equals(password))) {
@@ -156,9 +211,24 @@ public class ATMSystem {
         }
         return -1;
     }
+
+    /**
+     * 展示用户的信息
+     * @param userInformationS
+     * @param loginIndex
+     */
     public static void ShowMoney(String[][] userInformationS,int loginIndex){
         System.out.println("账户:" + userInformationS[loginIndex][0].split(":")[1] + "的金额为:" + userInformationS[loginIndex][4].split(":")[1]);
     }
+
+    /**
+     * 转账
+     * @param userInformationS
+     * @param loginIndex
+     * @param isFreeze
+     * @param scanner
+     * @return
+     */
     public static String[][] TransferMoney(String[][] userInformationS,int loginIndex,boolean isFreeze,Scanner scanner){
         if (isFreeze) {
             System.out.println("该账户已经被冻结,请联系管理员!!!");
@@ -166,11 +236,15 @@ public class ATMSystem {
         }
         System.out.println("请输入转账的账户号:");
         String userToUserIndex = scanner.nextLine().trim();
-
         for (int i = 0; i < userInformationS.length; i++) {
             if (userInformationS[i][0].split(":")[1].equals(userToUserIndex)) {
                 System.out.println("请输入转账金额:");
-                int money = Integer.parseInt(scanner.nextLine().trim());
+                int money = 0;
+                try {
+                    money = Integer.parseInt(scanner.nextLine().trim());
+                } catch (NumberFormatException e) {
+                    System.out.println("输入有误!!!");
+                }
                 if (money > 0) {
                     if (Integer.parseInt(userInformationS[loginIndex][4].split(":")[1]) - money < 0)
                         System.out.println("转账金额过大!!");
@@ -188,13 +262,27 @@ public class ATMSystem {
         }
         return userInformationS;
     }
+
+    /**
+     * 取钱
+     * @param userInformationS
+     * @param loginIndex
+     * @param isFreeze
+     * @param scanner
+     * @return
+     */
     public static String[][] WithdrawMoney(String[][] userInformationS,int loginIndex,boolean isFreeze,Scanner scanner){
         if (isFreeze) {
             System.out.println("该账户已经被冻结,请联系管理员!!!");
             return userInformationS;
         }
         System.out.println("请输入取钱金额:");
-        int money = Integer.parseInt(scanner.nextLine().trim());
+        int money = 0;
+        try {
+            money = Integer.parseInt(scanner.nextLine().trim());
+        } catch (NumberFormatException e) {
+            System.out.println("输入数据有误!!!");
+        }
         if (money > 0) {
             if (Integer.parseInt(userInformationS[loginIndex][4].split(":")[1]) - money < 0)
                 System.out.println("取钱金额过大!!");
@@ -208,9 +296,22 @@ public class ATMSystem {
         }
         return userInformationS;
     }
+
+    /**
+     * 存钱
+     * @param userInformationS
+     * @param loginIndex
+     * @param scanner
+     * @return
+     */
     public static String[][] SavingMoney(String[][] userInformationS,int loginIndex,Scanner scanner){
         System.out.println("请输入存钱金额:");
-        int money1 = Integer.parseInt(scanner.nextLine().trim());
+        int money1 = 0;
+        try {
+            money1 = Integer.parseInt(scanner.nextLine().trim());
+        } catch (NumberFormatException e) {
+            System.out.println("输入数据有误!!!");
+        }
         if (money1 > 0) {
             userInformationS[loginIndex][4] = " 金额:" + (Integer.parseInt(userInformationS[loginIndex][4].split(":")[1]) + money1);
             System.out.println("账户:" + userInformationS[loginIndex][0].split(":")[1] + "的金额为:" + userInformationS[loginIndex][4].split(":")[1]);
@@ -219,6 +320,15 @@ public class ATMSystem {
         }
         return userInformationS;
     }
+
+    /**
+     * 用户功能集合
+     * @param userInformationS
+     * @param name
+     * @param password
+     * @param scanner
+     * @return
+     */
     public static String[][] UserFeatures(String[][] userInformationS,String name,String password,Scanner scanner){
         int loginIndex ;
         loginIndex = ReturnUserIndex(userInformationS,name,password);
